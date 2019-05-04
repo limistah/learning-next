@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "now-build": "next build",
+    "start:8": "PORT=8000 npm start",
+    "start:9": "PORT=9000 npm start"
   },
   "keywords": [],
   "author": "",
